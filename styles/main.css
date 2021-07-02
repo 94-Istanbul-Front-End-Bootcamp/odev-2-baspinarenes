@@ -136,7 +136,9 @@ input:checked + .slider:before {
   cursor: pointer;
 }
 
-.filter-button {
+.filter-button,
+.sorting-button
+{
   pointer-events: none;
 }
 

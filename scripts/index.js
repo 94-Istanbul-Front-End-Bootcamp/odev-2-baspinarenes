@@ -20,6 +20,7 @@ showListButtonDOM.addEventListener('click', () => {
         currentPersonList = [...responseData];
         // personList = responseData.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));
         filterButtonDOM.style.pointerEvents = "unset";
+        sortingButtonDOM.style.pointerEvents = "unset";
         listData(responseData);
     })
     .catch(err => {
